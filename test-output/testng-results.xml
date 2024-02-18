@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results retried="1" ignored="1" total="3" passed="0" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-18T20:15:34 NPT" name="Default suite" finished-at="2024-02-18T20:15:47 NPT" duration-ms="13242">
+    <groups>
+    </groups>
+    <test started-at="2024-02-18T20:15:34 NPT" name="Default test" finished-at="2024-02-18T20:15:47 NPT" duration-ms="13242">
+      <class name="RealWorldApp.SeleniumRWA.tests.LoginTest">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:RealWorldApp.SeleniumRWA.tests.LoginTest@6221a451]" started-at="2024-02-18T20:15:34 NPT" name="launchBrowser" finished-at="2024-02-18T20:15:41 NPT" duration-ms="6844" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method retried="true" signature="exmaple_of_iRetryAnalyzer()[pri:2, instance:RealWorldApp.SeleniumRWA.tests.LoginTest@6221a451]" started-at="2024-02-18T20:15:41 NPT" name="exmaple_of_iRetryAnalyzer" finished-at="2024-02-18T20:15:41 NPT" duration-ms="476" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[URL BEFORE LOGGED IN AND AFTER LOGGED IN MATCHED did not expect [http://localhost:3000/signin] but found [http://localhost:3000/signin]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: URL BEFORE LOGGED IN AND AFTER LOGGED IN MATCHED did not expect [http://localhost:3000/signin] but found [http://localhost:3000/signin]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failEquals(Assert.java:1582)
+at org.testng.Assert.assertNotEqualsImpl(Assert.java:157)
+at org.testng.Assert.assertNotEquals(Assert.java:2198)
+at RealWorldApp.SeleniumRWA.tests.LoginTest.exmaple_of_iRetryAnalyzer(LoginTest.java:41)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exmaple_of_iRetryAnalyzer -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:RealWorldApp.SeleniumRWA.tests.LoginTest@6221a451]" started-at="2024-02-18T20:15:41 NPT" name="teardown" finished-at="2024-02-18T20:15:42 NPT" duration-ms="802" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:RealWorldApp.SeleniumRWA.tests.LoginTest@6221a451]" started-at="2024-02-18T20:15:42 NPT" name="launchBrowser" finished-at="2024-02-18T20:15:46 NPT" duration-ms="3981" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="exmaple_of_iRetryAnalyzer()[pri:2, instance:RealWorldApp.SeleniumRWA.tests.LoginTest@6221a451]" started-at="2024-02-18T20:15:46 NPT" name="exmaple_of_iRetryAnalyzer" finished-at="2024-02-18T20:15:46 NPT" duration-ms="456" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[URL BEFORE LOGGED IN AND AFTER LOGGED IN MATCHED did not expect [http://localhost:3000/signin] but found [http://localhost:3000/signin]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: URL BEFORE LOGGED IN AND AFTER LOGGED IN MATCHED did not expect [http://localhost:3000/signin] but found [http://localhost:3000/signin]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failEquals(Assert.java:1582)
+at org.testng.Assert.assertNotEqualsImpl(Assert.java:157)
+at org.testng.Assert.assertNotEquals(Assert.java:2198)
+at RealWorldApp.SeleniumRWA.tests.LoginTest.exmaple_of_iRetryAnalyzer(LoginTest.java:41)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:248)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exmaple_of_iRetryAnalyzer -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:RealWorldApp.SeleniumRWA.tests.LoginTest@6221a451]" started-at="2024-02-18T20:15:46 NPT" name="teardown" finished-at="2024-02-18T20:15:47 NPT" duration-ms="614" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- RealWorldApp.SeleniumRWA.tests.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

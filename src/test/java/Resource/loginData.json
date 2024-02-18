@@ -1,0 +1,20 @@
+[
+	{
+		"username": "",
+		"password": "",
+		"validation": "empty",
+		"message": ""
+	},
+	{
+		"username": "invalid@email.com",
+		"password": "invalid",
+		"validation": "failure",
+		"message": "Username or password is invalid"
+	},
+	{
+		"username": "Jessyca.Kuhic",
+		"password": "s3cret",
+		"validation": "success",
+		"message": ""
+	}
+]
